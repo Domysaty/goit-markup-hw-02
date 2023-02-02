@@ -1,0 +1,10 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-heads-color: #2e2f42;
+  --body-text-color: #434455;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+}
