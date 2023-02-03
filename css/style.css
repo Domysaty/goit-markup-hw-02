@@ -19,6 +19,19 @@
   list-style: none;
 }
 
+.hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 body {
   color: var(--body-text-color);
   font-family: var(--primary-font);
@@ -37,8 +50,115 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
 }
-.logo-brand-clr {
+.logo-primary-clr {
   color: var(--primary-brand-color);
 }
 
+.logo-secondary-clr {
+  color: var(--primary-bck-color);
+}
+
+.primary-title {
+  color: var(--dark-heads-color);
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.secondary-title {
+  color: var(--dark-heads-color);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.background {
+  background-color: var(--light-color);
+}
+
+.secondary-button {
+  color: var(--primary-brand-color);
+  background-color: var(--accent-color);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+  background-color: var(--pressed-state-color);
+  color: var(--primary-bck-color);
+}
+
 /* Header */
+
+.header {
+  background-color: var(--primary-bck-color);
+}
+
+.header-link {
+  color: var(--dark-heads-color);
+  font-weight: 500;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.adress-link {
+  color: var(--body-text-color);
+  font-style: normal;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--pressed-state-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--dark-heads-color);
+}
+
+.hero-title {
+  color: var(--primary-bck-color);
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.hero-button {
+  background-color: var(--primary-brand-color);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color);
+  color: var(--primary-bck-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--dark-heads-color);
+}
+
+.footer-text {
+  color: var(--accent-color);
+}
