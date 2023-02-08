@@ -48,6 +48,7 @@ body {
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-primary-clr {
   color: var(--primary-brand-color);
@@ -60,10 +61,10 @@ body {
 .primary-title {
   color: var(--dark-heads-color);
   font-family: var(--primary-font);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -73,6 +74,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .background {
@@ -94,6 +96,11 @@ body {
 .secondary-button:focus {
   background-color: var(--pressed-state-color);
   color: var(--primary-bck-color);
+}
+
+.list-item {
+  background-color: var(--primary-bck-color);
+  text-align: center;
 }
 
 /* Header */
@@ -131,13 +138,15 @@ body {
 .hero-title {
   color: var(--primary-bck-color);
   font-family: var(--primary-font);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
   background-color: var(--primary-brand-color);
+  color: var(--primary-bck-color);
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
